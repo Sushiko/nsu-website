@@ -1,0 +1,20 @@
+{{ if isset .Site.Params "top_title_card" }}
+{{ if .Site.Params.top_title_card.enable }}
+<section id="title-card" style="background-image: url('img/hero-image.jpg'); " >
+    <div class="top-info">
+        <div class="container d-flex align-items-center h-100">
+        	<div class="title-div">
+        		<h1>日系</h1>
+        		<h2>一輪</h2>
+	            <h3 class="nsu-heading">Nikkei Student Union</h3>
+	            <h4>Chapman University</h4>
+	            <br/><br/>
+	            <h5>Promoting and celebrating Japanese</h5>
+	            <h6>American Culture</h6>
+        	</div>
+        </div>
+
+    </div>
+</section>
+{{ end }}
+{{ end }}

@@ -1,0 +1,158 @@
+#title-card {
+  padding: 0;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center bottom;
+
+  .top-info {
+    position: absolute;
+    background: rgba(0,0,0, 0.5);
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 50%;
+  }
+
+  .title-div{
+    margin-left: 6rem;
+  }
+  .nsu-heading{
+    margin-bottom: 0;
+
+  }
+
+  h1, h2{
+    color: white;
+    font-family: Droid Sans;
+    font-size: 42pt;
+
+  }
+  h3{
+    color: white;
+    font-family: Signika;
+    font-size: 38pt;
+    font-weight: bold;
+  }
+  h4{
+    color: white;
+    font-family: Signika;
+    font-size: 28pt;
+    font-weight: bold;
+  }
+  h5, h6{
+    color: white;
+    font-family: Open Sans;
+    font-size: 20pt;
+    font-weight: regular;
+  }
+}
+
+  //
+  //@media screen and ( min-height: 1000px ){
+  //  .row>div {
+  //    display: block;
+  //    width: 100%;
+  //    max-width: 100%;
+  //    flex: none;
+  //  }
+  //
+  //  .order-2{
+  //    order: 2;
+  //  }
+  //
+  //  .order-1{
+  //    order: 1;
+  //  }
+  //}
+  //
+  //.title_button{
+  //  margin-bottom: 47px;
+  //}
+  //
+  //@include media-breakpoint-up(md) {
+  //  padding-bottom: 0;
+  //}
+  //&>div {
+  //  background: #f9f9f9;
+  //}
+  //
+  //.cover-container{
+  //  overflow: hidden;
+  //  img{
+  //    width: 100%;
+  //  }
+  //
+  //  margin-bottom: 5rem;
+  //  @include media-breakpoint-up(md) {
+  //    @media screen and ( max-height: 1000px ) {
+  //
+  //      height: 100vh;
+  //      margin-bottom: 0;
+  //      img {
+  //        height: 100%;
+  //        float: left;
+  //        width: auto;
+  //        left: -20vh;
+  //        position: relative;
+  //      }
+  //    }
+  //  }
+  //  height: auto;
+  //
+  //}
+  //
+  //.call-to-action-block{
+  //  @include font-opensans;
+  //  margin: 0 auto;
+  //  @media (max-width: 991px) {
+  //      margin: 2.5%;
+  //  }
+  //  position: relative;
+  //  .fresh-senator{
+  //    @media (max-width: 1222px) {
+  //      font-size: 4rem;
+  //    }
+  //    @media (max-width: 991px) {
+  //      font-size: 6rem;
+  //    }
+  //    @media (max-width: 576px) {
+  //      font-size: 3.5rem;
+  //    }
+  //    font-size: 5rem;
+  //    font-weight: 100;
+  //    letter-spacing: 0.5rem;
+  //  }
+  //
+  //  .fresh-senator-subtitle{
+  //    margin-bottom: 30px;
+  //    font-weight: 100;
+  //    font-size: 3rem;
+  //    @media(max-width: 1222px) {
+  //      font-size: 2.5rem;
+  //    }
+  //    @media (max-width: 991px) {
+  //      font-size: 4rem;
+  //    }
+  //    @media (max-width: 576px) {
+  //      font-size: 2.6rem;
+  //    }
+  //  }
+  //  .voting-starts{
+  //    padding-top: 4rem;
+  //  }
+  //
+  //  .vote-for{
+  //    line-height: 3rem;
+  //    font-size: 6rem;
+  //    padding-bottom: 2rem;
+  //    &>span{
+  //      font-weight: bolder;
+  //    }
+  //  }
+  //
+  //}
+
+
+
